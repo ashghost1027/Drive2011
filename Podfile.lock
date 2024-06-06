@@ -1,0 +1,59 @@
+PODS:
+  - Apptics-SDK (1.2.2):
+    - Apptics-SDK/Analytics (= 1.2.2)
+  - Apptics-SDK/Analytics (1.2.2):
+    - Apptics-SDK/Scripts
+    - AppticsAnalytics (= 1.2.2)
+  - Apptics-SDK/Scripts (1.2.2)
+  - Apptics-Swift (1.2.2):
+    - Apptics-SDK (= 1.2.2)
+    - Apptics-Swift/Analytics (= 1.2.2)
+  - Apptics-Swift/Analytics (1.2.2):
+    - Apptics-SDK (= 1.2.2)
+  - AppticsAnalytics (1.2.2):
+    - AppticsAnalytics/Core (= 1.2.2)
+  - AppticsAnalytics/Apptics (1.2.2):
+    - AppticsAnalytics/JWT
+  - AppticsAnalytics/Core (1.2.2):
+    - AppticsAnalytics/Apptics
+    - AppticsAnalytics/CrashKit
+    - AppticsAnalytics/EventTracker
+    - AppticsAnalytics/ScreenTracker
+  - AppticsAnalytics/CrashKit (1.2.2):
+    - AppticsAnalytics/KSCrash
+  - AppticsAnalytics/EventTracker (1.2.2)
+  - AppticsAnalytics/JWT (1.2.2)
+  - AppticsAnalytics/KSCrash (1.2.2)
+  - AppticsAnalytics/ScreenTracker (1.2.2)
+  - GoogleAPIClientForREST/Core (3.5.2):
+    - GTMSessionFetcher/Full (< 4.0, >= 1.6.1)
+  - GoogleAPIClientForREST/Drive (3.5.2):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher/Full (< 4.0, >= 1.6.1)
+  - GTMSessionFetcher/Core (3.4.1)
+  - GTMSessionFetcher/Full (3.4.1):
+    - GTMSessionFetcher/Core
+
+DEPENDENCIES:
+  - Apptics-Swift
+  - GoogleAPIClientForREST/Drive
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Apptics-SDK
+    - Apptics-Swift
+    - AppticsAnalytics
+  trunk:
+    - GoogleAPIClientForREST
+    - GTMSessionFetcher
+
+SPEC CHECKSUMS:
+  Apptics-SDK: dc0398a0db46d834356556312870150882378c87
+  Apptics-Swift: 4cdc5ad941bb0374ea1f2063eedaac72e73678cd
+  AppticsAnalytics: 1380842747c58a9df9f378051ec3ceb0df93ace8
+  GoogleAPIClientForREST: c26bb42dfcdf32a397e90275edfa84e5c50aa3ec
+  GTMSessionFetcher: 8000756fc1c19d2e5697b90311f7832d2e33f6cd
+
+PODFILE CHECKSUM: 93144e90e23526565424acd5a37ac9648067f5cf
+
+COCOAPODS: 1.14.3
