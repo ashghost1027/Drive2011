@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4A5F36F32BFDC4E6009CB161 /* FileLoaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F36F22BFDC4E6009CB161 /* FileLoaderDelegate.swift */; };
-		4AA643902C0D9FC200627A4C /* apptics-config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AA6438F2C0D9FC100627A4C /* apptics-config.plist */; };
 		4AC039F52BE4C33400AFCE95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC039F42BE4C33400AFCE95 /* AppDelegate.swift */; };
 		4AC039F72BE4C33400AFCE95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC039F62BE4C33400AFCE95 /* SceneDelegate.swift */; };
 		4AC039F92BE4C33400AFCE95 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC039F82BE4C33400AFCE95 /* LoginViewController.swift */; };
@@ -43,7 +42,6 @@
 /* Begin PBXFileReference section */
 		3A335BFCBAA147B13627A5FA /* Pods_Drive2011.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drive2011.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5F36F22BFDC4E6009CB161 /* FileLoaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLoaderDelegate.swift; sourceTree = "<group>"; };
-		4AA6438F2C0D9FC100627A4C /* apptics-config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "apptics-config.plist"; path = "../../../../apptics-config.plist"; sourceTree = "<group>"; };
 		4AC039F12BE4C33400AFCE95 /* Drive2011.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drive2011.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC039F42BE4C33400AFCE95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AC039F62BE4C33400AFCE95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 				4AC03C642BE9FD6000AFCE95 /* ViewModel */,
 				4AC03C632BE9FD3D00AFCE95 /* View */,
 				4AC03A022BE4C33500AFCE95 /* Info.plist */,
-				4AA6438F2C0D9FC100627A4C /* apptics-config.plist */,
 			);
 			path = Drive2011;
 			sourceTree = "<group>";
@@ -191,7 +188,6 @@
 			buildPhases = (
 				31A7079278606EEBBBE32C4A /* [CP] Check Pods Manifest.lock */,
 				4AC039EF2BE4C33400AFCE95 /* Resources */,
-				97D966137C1DAE91C19087D2 /* [CP-User] Apptics pre build */,
 				4AC039ED2BE4C33400AFCE95 /* Sources */,
 				4AC039EE2BE4C33400AFCE95 /* Frameworks */,
 				6AEEFE0C18FE5253D2B1C28B /* [CP] Embed Pods Frameworks */,
@@ -275,7 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AC03A012BE4C33500AFCE95 /* LaunchScreen.storyboard in Resources */,
-				4AA643902C0D9FC200627A4C /* apptics-config.plist in Resources */,
 				4AC039FE2BE4C33500AFCE95 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,16 +323,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Drive2011/Pods-Drive2011-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		97D966137C1DAE91C19087D2 /* [CP-User] Apptics pre build */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
-			files = (
-			);
-			name = "[CP-User] Apptics pre build";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "sh \"./Pods/Apptics-SDK/scripts/run\" --upload-symbols-for-configurations=\"Release, Appstore\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 

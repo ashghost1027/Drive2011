@@ -9,7 +9,7 @@ import UIKit
 import GoogleSignIn
 import GoogleSignInSwift
 import BackgroundTasks
-import Apptics
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
